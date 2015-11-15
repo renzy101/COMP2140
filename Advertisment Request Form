@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <h1>Advertisement Request Form</h1>
+  </header>
+<body>
+<form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+  <br>
+  Company name:<br>
+  <input type="text" name="companyname">
+  <br>
+  Contact number:<br>
+  <input type="text" name="contactnumber">
+  <br>
+   Select start date
+  <br>
+  <input type="date" name="strtday">
+  <br>
+   Select end date
+  <br>
+  <input type="date" name="endday">  
+</form>
+  <p>Select days advertisement should be publicized </p>
+  <input type="checkbox" name="sunday" value="Sunday"> Sunday<br>
+  <input type="checkbox" name="monday" value="Monday"> Monday<br>
+  <input type="checkbox" name="tuesday" value="Tuesday"> Tuesday<br>
+  <input type="checkbox" name="wednesday" value="Wednesday"> Wednesday<br>
+  <input type="checkbox" name="thursday" value="Thursday"> Thursday<br>
+  <input type="checkbox" name="friday" value="Friday"> Friday<br>
+  <input type="checkbox" name="saturday" value="Saturday"> Saturday<br>
+   <p>Select colour of advertisement</p>
+  <input type="checkbox" name="red" value="red"> Red<br>
+  <input type="checkbox" name="blue" value="blue"> Blue<br>
+  <input type="checkbox" name="yellow" value="Yellow">Yellow<br>
+  <p>Select size of advertisement.</p>
+  <select name="size">
+    <option value="1260x760">1260x760</option>
+    <option value="saab">1080x720</option>
+  </select>
+  <br><br>
+  <p>Do you want us to design your advertisement?</p>  
+  <input type="radio" name="yes" value="yes">Yes<br>
+  <input type="radio" name="no" value="no">No<br>
+   <p>Upload advertisenent.</p>
+   <input type="file" name="pic" accept="image/*">
+   <br><br>
+   <input type="submit" value="Submit">
+</form>
+</body>
+</html>
